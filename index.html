@@ -468,6 +468,61 @@ const EXTRA_FOODS=[
 ["Crema de leche","1 cucharada",15,52,0.3,0.4,5.5],["Salsa BBQ","1 cucharada",17,29,0.1,7,0.1],["Endulzante","1 sobre",1,0,0,0,0],
 ["Aceite para cocinar","1 cucharadita",5,45,0,0,5],["Margarina","1 cucharadita",5,36,0,0,4],["Crema de avellanas","1 cucharada",19,100,1,11,5.8]
 ];
+const MORE_FOODS=[
+["Avena instantánea","1/2 taza",40,150,5,27,3],["Avena instantánea con sabor","1 sobre",43,160,4,32,2],["Avena en hojuelas","1/2 taza",40,152,5.3,26,2.8],
+["Salvado de avena","2 cucharadas",15,37,2.6,10,1],["Cereal de arroz inflado","1 taza",30,115,2,26,0.3],["Cereal azucarado (hojuelas con azúcar)","1 taza",30,113,1.5,27,0.2],
+["Cereal integral alto en fibra","1/2 taza",30,90,3.5,22,1],["Cereal de avena en aritos","1 taza",28,105,3.5,20,2],["Granola sin azúcar","1/2 taza",50,220,6,28,10],
+["Barra de granola","1 unidad",25,105,2,17,3.5],["Pan de molde multigrano","1 rebanada",30,80,4,13,1.3],["Pan de molde sin corteza","1 rebanada",22,55,1.8,10.5,0.6],
+["Pan de molde proteico","1 rebanada",35,85,7,9,2.5],["Pan pita integral","1 unidad",60,155,6,30,1.5],["Tortilla de trigo integral","1 unidad",40,115,3.5,19,3],
+["Tortilla grande para burrito","1 unidad",70,210,5.5,34,5.5],["Pan rallado","2 cucharadas",14,55,1.8,10,0.7],["Pan de centeno","1 rebanada",32,83,2.7,15.5,1],
+["Bagel","1 unidad",100,270,10,53,1.5],["Galletas de agua integrales","5 unidades",30,125,3.5,20,3.5],["Queque envasado","1 rebanada",40,160,2,22,7],
+["Pan de leche (brioche)","1 unidad",40,130,3.5,20,4],["Mermelada light","1 cucharada",20,20,0,5,0],["Manjar light","1 cucharada",20,45,1.4,7.5,1],
+["Cacao en polvo azucarado","2 cucharadas",20,80,1,17,0.8],["Cacao amargo","1 cucharada",5,12,1,0.6,0.7],["Café instantáneo","1 cucharadita",2,2,0.2,0.3,0],
+["Café 3 en 1","1 sobre",18,75,0.8,13,2.3],["Té helado envasado","1 botella",500,110,0,27,0],
+["Leche cultivada","1 unidad",200,150,6,24,3],["Leche en polvo entera","2 cucharadas",26,130,6.8,10,7],["Leche condensada","1 cucharada",20,64,1.6,11,1.7],
+["Leche evaporada","1/4 taza",63,85,4.2,6.3,4.8],["Yogurt descremado","1 unidad",125,60,4.5,9,0.2],["Yogurt con cereal","1 unidad",150,180,5.5,30,4],
+["Yogurt bebible","1 botella",200,150,5,26,3],["Yogurt griego con sabor","1 pote",150,170,10,20,5],["Postre de leche (tipo flan o chocolate)","1 unidad",120,160,3.5,25,5],
+["Leche proteica envasada","1 caja",250,160,25,12,1],["Queso laminado light","1 lámina",20,50,5,0.5,3],["Queso rallado","2 cucharadas",10,40,3,0.3,3],
+["Queso crema light","1 cucharada",15,30,1.2,1,2.3],["Queso brie o camembert","30 g",30,95,6,0,8],["Queso azul","30 g",30,100,6,0.7,8],
+["Queso cheddar laminado","1 lámina",20,60,3.5,1.5,4.5],["Crema chantilly en spray","2 cucharadas",10,25,0.2,1,2.2],
+["Pechuga de pavo laminada","3 láminas",45,45,8,1.5,0.7],["Jamón ahumado","2 láminas",40,55,7,2,2.2],["Jamón serrano","3 láminas",30,75,9,0,4.3],
+["Vienesa de pavo","1 unidad",50,85,6,2,6],["Vienesa de pollo","1 unidad",50,110,5,2.5,9],["Chorizo español","30 g",30,135,7,0.5,12],["Paté","1 cucharada",15,45,1.7,0.5,4],
+["Arrollado de huaso","2 láminas",40,90,6,1,7],["Queso de cabeza","2 láminas",40,80,6,0.5,6],["Pernil","100 g",100,260,26,0,17],["Salchichón","5 láminas",25,95,4.5,0.5,8.5],
+["Charqui de vacuno","30 g",30,100,15,4,2.5],["Filetitos de pollo apanados congelados","4 unidades",100,250,14,17,14],["Hamburguesa congelada de vacuno","1 unidad",100,260,15,4,20],
+["Hamburguesa congelada de pollo","1 unidad",100,220,13,9,14],["Croquetas de pescado","3 unidades",90,190,9,17,9.5],["Kanikama (palitos de surimi)","3 unidades",45,45,3.5,6.5,0.4],
+["Atún en aceite","1 lata escurrida",110,210,28,0,11],["Salmón en conserva","1/2 lata",100,150,20,0,7.5],["Carne molida 5% cocida","100 g",100,170,27,0,6.5],
+["Carne molida 15% cocida","100 g",100,250,25,0,16],["Proteína vegetal en polvo","1 scoop",30,115,21,3,2],["Proteína isolate","1 scoop",30,110,26,1,0.5],
+["Creatina","1 cucharadita",5,0,0,0,0],["Ganador de peso","1 porción",100,380,20,70,3],
+["Arroz crudo","1/4 taza",45,160,3,36,0.3],["Fideos crudos","1 porción",80,285,10,57,1.2],["Fideos integrales cocidos","1 taza",140,175,7.5,37,0.8],
+["Lentejas crudas","1/4 taza",50,175,12,30,0.5],["Porotos negros cocidos","1 taza",172,227,15,41,0.9],["Porotos en lata","1/2 taza",130,110,7,19,0.5],
+["Garbanzos en lata","1/2 taza",120,130,6.5,20,2.3],["Choclo en lata","1/2 taza",82,70,2,15,1],["Arvejas en lata","1/2 taza",85,60,3.5,10,0.3],
+["Duraznos en almíbar","2 mitades",120,90,0.5,22,0],["Fruta en conserva","1/2 taza",120,90,0.5,23,0],["Puré instantáneo preparado","1 taza",200,200,4,30,7],
+["Sopa instantánea","1 plato",250,70,2,13,1],["Fideos instantáneos (tipo ramen)","1 paquete",85,380,8,52,15],["Salsa boloñesa envasada","1/2 taza",125,80,4,8,3.5],
+["Pesto envasado","1 cucharada",15,70,1,1,7],["Mayonesa light","1 cucharada",15,45,0.1,1,4.5],["Aceite vegetal","1 cucharada",14,124,0,0,14],
+["Harina de trigo","1/4 taza",30,110,3,23,0.3],["Maicena","1 cucharada",8,30,0,7,0],["Polenta cocida","1 taza",240,145,3,31,0.7],["Quinoa cruda","1/4 taza",43,160,6,28,2.6],
+["Maní salado","1 puñado",28,170,7,5,14.5],["Maní confitado","1 puñado",30,150,4,17,8],["Semillas de maravilla","1 cucharada",10,58,2,2,5],
+["Semillas de zapallo","1 cucharada",10,56,3,1,4.9],["Mantequilla de almendras","1 cucharada",16,98,3.4,3,9],
+["Papas fritas de bolsa (porción)","porción de 30 g",30,160,2,15,10.5],["Nachos de maíz (snack)","porción de 30 g",30,150,2,18,8],["Suflés de maíz con queso","porción de 30 g",30,160,2,17,9.5],
+["Galletas con chips de chocolate","3 unidades",33,165,2,22,8],["Galletas dulces simples","4 unidades",30,135,2,21,4.8],["Galletas de mantequilla","3 unidades",30,150,2,19,7],
+["Galletas tipo wafer","3 unidades",30,155,1.5,19,8],["Galletas integrales","3 unidades",30,130,2.5,20,4.5],["Chocolate blanco","4 cuadritos",25,140,1.7,15,8.2],
+["Chocolate con almendras","4 cuadritos",25,140,2.5,13,9],["Calugas","3 unidades",15,60,0.3,12,1.3],["Caramelos duros","3 unidades",15,58,0,14.5,0],
+["Marshmallows","5 unidades",25,80,0.5,20,0],["Alfajor triple","1 unidad",70,300,4,42,13],["Helado de pote","1/2 taza",65,135,2.3,16,7],["Helado light","1/2 taza",65,90,2.5,14,2.5],
+["Fruta deshidratada","1 puñado",30,100,1,24,0.3],["Chips de plátano","1 puñado",30,155,0.7,17,10],["Barra de fruta","1 unidad",20,70,0.3,17,0],["Cabritas de microondas","1/2 bolsa",40,210,3.3,22,12],
+["Bebida de fantasía (naranja, limón)","1 lata",350,155,0,40,0],["Agua tónica","1 lata",350,120,0,31,0],["Ginger ale","1 lata",350,125,0,32,0],
+["Jugo en caja individual","1 caja",200,90,0,22,0],["Jugo light en caja","1 caja",200,20,0,4.5,0],["Bebida de soya","1 taza",200,80,6.5,5,4],["Kombucha","1 botella",330,60,0,14,0],
+["Café helado envasado","1 botella",250,150,5,25,3.5],["Batido de proteína listo","1 botella",330,200,25,15,4.5],["Agua de coco","1 caja",330,63,0.7,15,0.6],
+["Cerveza lata grande","1 lata 470 ml",470,200,2,17,0],["Sidra o cooler","1 botella",275,190,0,30,0],
+["Pizza congelada individual","1 unidad",300,750,30,90,30],["Lasaña congelada","1 porción",350,500,25,45,24],["Empanaditas de queso congeladas","3 unidades",90,270,8,28,14],
+["Papas prefritas al horno","1 porción",100,160,2.5,24,6],["Papas prefritas fritas en aceite","1 porción",100,280,3,33,15],["Verduras congeladas mixtas","1 taza",130,60,3,11,0.5],
+["Frutillas congeladas","1 taza",140,50,0.6,13,0.2],["Berries congelados","1 taza",140,70,1,17,0.4],["Choclo congelado","1/2 taza",80,70,2.5,15,1],
+["Arroz listo en bolsa","1 bolsa",125,190,4,40,1.5],["Sushi de supermercado","10 piezas",250,400,13,65,9],["Ensalada envasada lista","1 bolsa",150,90,3,8,5],
+["Sándwich envasado triangular","1 unidad",150,350,15,32,17],
+["Tortilla de rescoldo","1 trozo",100,300,7,50,7],["Dobladitas","1 unidad",70,240,5,32,10],["Chilenitos","1 unidad",50,220,3,32,9],["Mote de trigo cocido","1 taza",160,190,6,40,1],
+["Huesillos secos","3 unidades",40,95,1.3,24,0.2],["Harina tostada","2 cucharadas",20,75,2.2,15,0.6],["Ulpo","1 vaso",250,230,9,40,4],["Dulce de membrillo","1 trozo",30,80,0,20,0],
+["Palta entera","1 unidad",140,225,2.8,12,20.5],["Plátano grande","1 unidad",140,125,1.5,32,0.5],["Nectarín","1 unidad",140,62,1.5,15,0.5],["Membrillo cocido","1/2 unidad",100,60,0.4,15,0.1],
+["Zapallo cocido","1 taza",245,50,1.8,12,0.2],["Betarraga cocida","1/2 taza",85,37,1.4,8.5,0.2],["Porotos verdes cocidos","1 taza",125,44,2.4,10,0.4],["Repollo","1 taza",90,22,1.2,5,0.1],
+["Rúcula","1 taza",20,5,0.5,0.7,0.1],["Apio","1 tallo",40,6,0.3,1.2,0],["Rabanitos","5 unidades",45,7,0.3,1.5,0],["Choclo en mazorca","1 unidad",150,130,4.5,28,1.8]
+];
 /* ===== Base de alimentos: [nombre, porción, gramos, kcal, prot, carbos, grasa]. Valores aproximados. ===== */
 const FOODS_DB=[
 ["Marraqueta","1 unidad",100,270,9,56,1],["Hallulla","1 unidad",90,290,8,49,6],["Pan amasado","1 unidad",100,320,8,50,10],
@@ -516,7 +571,7 @@ const FOODS_DB=[
 ["Hamburguesa simple (cadena)","1 unidad",100,250,12,30,9],["Hamburguesa doble con queso (cadena)","1 unidad",165,450,25,35,24],
 ["Nuggets de pollo","6 unidades",100,270,14,16,17],["Papas fritas grandes (cadena)","1 porción",150,470,5.5,62,22],
 ["Kuchen","1 trozo",120,340,5,45,16],["Alfajor","1 unidad",50,220,3,32,9],["Berlín","1 unidad",90,330,6,40,16],["Mote con huesillo","1 vaso",400,300,3,72,0.5]
-].concat(EXTRA_FOODS).map((r,i)=>({id:"db:"+i,name:r[0],portion:r[1],g:r[2],kcal:r[3],p:r[4],c:r[5],f:r[6],src:"db"}));
+].concat(EXTRA_FOODS,MORE_FOODS).map((r,i)=>({id:"db:"+i,name:r[0],portion:r[1],g:r[2],kcal:r[3],p:r[4],c:r[5],f:r[6],src:"db"}));
 
 (function(){
 const MEALS=[["desayuno","Desayuno"],["almuerzo","Almuerzo"],["once","Once"],["cena","Cena"],["snack","Snacks"]];
@@ -673,7 +728,7 @@ $("sheet").addEventListener("click",e=>{if(e.target===$("sheet"))$("sheet").clos
 
 function mine(){return (profile.foods||[]).map(f=>Object.assign({src:"mine"},f));}
 function itemRow(f,onclick){const li=document.createElement("li"),b=document.createElement("button");
-  b.innerHTML='<div class="rn"><div>'+esc(f.name)+(f.src==="mine"?'<span class="tag">mía</span>':"")+'</div><div class="small muted">'+esc(f.portion||"1 porción")+" · P "+fmt(f.p)+" C "+fmt(f.c)+" G "+fmt(f.f)+'</div></div><div class="rk">'+r0(f.kcal)+"</div>";
+  b.innerHTML='<div class="rn"><div>'+esc(f.name)+(f.src==="mine"?'<span class="tag">mía</span>':f.src==="bc"?'<span class="tag">súper</span>':"")+'</div><div class="small muted">'+esc(f.portion||"1 porción")+" · P "+fmt(f.p)+" C "+fmt(f.c)+" G "+fmt(f.f)+'</div></div><div class="rk">'+r0(f.kcal)+"</div>";
   b.onclick=onclick||(()=>selectFood(f));li.appendChild(b);return li;}
 function renderResults(){
   const q=norm($("q").value.trim()),box=$("results");box.innerHTML="";
@@ -682,7 +737,7 @@ function renderResults(){
     if(rec.length){box.insertAdjacentHTML("beforeend",'<div class="sect">Recientes</div>');const ul=document.createElement("ul");ul.className="results";rec.forEach(f=>ul.appendChild(itemRow(f)));box.appendChild(ul);}
     const my=mine();if(my.length){box.insertAdjacentHTML("beforeend",'<div class="sect">Mis comidas</div>');const ul=document.createElement("ul");ul.className="results";
       my.sort((a,b)=>(b.uses||0)-(a.uses||0)).slice(0,15).forEach(f=>ul.appendChild(itemRow(f)));box.appendChild(ul);}
-    if(!rec.length&&!my.length)box.insertAdjacentHTML("beforeend",'<p class="empty">Escribe lo que comiste. Hay más de 130 alimentos y platos típicos cargados, y lo que agregues se guarda en Recientes.</p>');
+    if(!rec.length&&!my.length)box.insertAdjacentHTML("beforeend",'<p class="empty">Escribe lo que comiste. Hay más de '+(Math.floor(FOODS_DB.length/50)*50)+' alimentos y platos cargados'+(IN_CLAUDE?"":", más miles de productos de supermercado")+'. Lo que agregues queda en Recientes.</p>');
     return;
   }
   const words=q.split(/\s+/);const match=f=>{const n=norm(f.name);return words.every(w=>n.includes(w))};
@@ -690,6 +745,7 @@ function renderResults(){
   const list=[...mine().filter(match).sort((a,b)=>score(a)-score(b)),...FOODS_DB.filter(match).sort((a,b)=>score(a)-score(b))].slice(0,30);
   if(list.length){const ul=document.createElement("ul");ul.className="results";list.forEach(f=>ul.appendChild(itemRow(f)));box.appendChild(ul);}
   else box.insertAdjacentHTML("beforeend",'<p class="empty">No está en la lista.</p>');
+  if(!IN_CLAUDE&&q.length>=3){const od=document.createElement("div");box.appendChild(od);offSearch(q,$("q").value.trim(),od);}
   const ai=document.createElement("div");ai.className="aibox";
   ai.innerHTML=(aiOn()?'<button class="btn full" id="aiest">Estimar “'+esc($("q").value.trim())+'” con IA</button><p class="small muted" style="margin:8px 0 0">Funciona con descripciones como “completo italiano y una bebida” o “menú de colación con pollo y arroz”.</p>':"")+
     '<button class="btn ghost full" id="tomanual" style="margin-top:'+(aiOn()?"10px":"0")+'">Ingresar valores a mano</button>'+(!aiOn()&&!IN_CLAUDE?'<p class="small muted" style="margin:8px 0 0">Con una API key en Metas, aquí podrás estimar cualquier comida con IA.</p>':"");
@@ -834,6 +890,35 @@ async function lookupBarcode(code){
     if($("bcphoto"))$("bcphoto").onclick=()=>{pendingBarcode=code;setMode("photo");};
     $("bcmanual").onclick=()=>{clearManual();pendingBarcode=code;$("manualhint").textContent="Copia los valores por porción de la etiqueta. Se guardará con el código "+code+" para la próxima vez.";setMode("manual");$("m-name").focus();};
   }catch(e){box.innerHTML='<p class="empty">No se pudo conectar. Revisa tu internet e intenta de nuevo.</p>';}
+}
+
+/* ---------- productos de supermercado (Open Food Facts) ---------- */
+const offCache=new Map();let offTimer=null,offSeq=0;
+const OFF_HEAD='<div class="sect">Productos de supermercado</div>';
+async function offQuery(text,chile){
+  const u=new URL("https://world.openfoodfacts.org/cgi/search.pl");
+  const prm={search_terms:text,search_simple:1,action:"process",json:1,page_size:30,sort_by:"unique_scans_n",lc:"es",
+    fields:"code,product_name,product_name_es,brands,nutriments,serving_size,serving_quantity"};
+  if(chile)Object.assign(prm,{tagtype_0:"countries",tag_contains_0:"contains",tag_0:"chile"});
+  Object.entries(prm).forEach(([k,v])=>u.searchParams.set(k,v));
+  const r=await fetch(u);if(r.status===429||r.status===503)throw {rate:true};if(!r.ok)throw {};
+  const d=await r.json();
+  return (d.products||[]).map(p=>p&&p.code?offToFood(p,p.code):null)
+    .filter(f=>f&&f.kcal>0&&f.name&&!/^producto$/i.test(f.name)&&!profile.foods.some(m=>m.barcode===f.barcode));
+}
+function offSearch(key,text,div){
+  clearTimeout(offTimer);const seq=++offSeq;
+  const render=items=>{if(seq!==offSeq||!div.isConnected)return;
+    if(!items.length){div.innerHTML=OFF_HEAD+'<p class="empty small">No encontré productos envasados con ese nombre. Si lo tienes a mano, escanea su código.</p>';return}
+    div.innerHTML=OFF_HEAD;const ul=document.createElement("ul");ul.className="results";items.forEach(f=>ul.appendChild(itemRow(f)));div.appendChild(ul);};
+  if(offCache.has(key)){render(offCache.get(key));return}
+  div.innerHTML=OFF_HEAD+'<p class="muted small" style="margin:8px 0"><span class="spinner"></span>Buscando productos…</p>';
+  offTimer=setTimeout(async()=>{
+    try{let items=await offQuery(text,true);
+      if(items.length<4){const more=await offQuery(text,false);items=items.concat(more.filter(x=>!items.some(y=>y.barcode===x.barcode)));}
+      items=items.slice(0,25);offCache.set(key,items);render(items);}
+    catch(e){if(seq===offSeq&&div.isConnected)div.innerHTML=OFF_HEAD+'<p class="empty small">'+(e&&e.rate?"Hiciste muchas búsquedas seguidas. Espera un minuto y vuelve a intentar.":"Sin conexión para buscar productos. Lo que viene incluido sigue funcionando.")+"</p>";}
+  },900);
 }
 
 /* ---------- MIS COMIDAS ---------- */

@@ -1,6 +1,6 @@
 // Mis calorías: guarda la app en el teléfono para que abra sin internet.
 // Al subir una versión nueva, cambia este número para que el teléfono la descargue.
-const VERSION = "calorias-v1";
+const VERSION = "calorias-v2";
 const APP = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 const CDN = ["cdn.jsdelivr.net", "fonts.googleapis.com", "fonts.gstatic.com"];
 
